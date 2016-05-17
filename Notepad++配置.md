@@ -1,12 +1,8 @@
-# Notes
-一.用Notepad++编译运行java的设置
-
-1.在plugin manager下下载插件NppExec
-
-2.在NppExec下的Execute下编辑保存以下命令：
-
+用Notepad++编译运行java的设置
+=
+1.在plugin manager下下载插件NppExec<br>
+2.在NppExec下的Execute下编辑保存以下命令：<br>
 info cnr
-
 javac -encoding UTF8 "$(FULL_CURRENT_PATH)"  
 echo  
 echo ===============  编译成功后开始运行  ===============  
@@ -14,16 +10,12 @@ echo 若不使用 -cp , 则需使用 cd 切换至当前目录, 或勾选 Follow 
 echo  
 java -cp "$(CURRENT_DIRECTORY)" "$(NAME_PART)"  
 
-
 complie java
-
 javac -encoding UTF8 "$(FULL_CURRENT_PATH)"  
 
-
 run java
-
 java -cp "$(CURRENT_DIRECTORY)" "$(NAME_PART)" 
 
-3.在NppExec下的Advanced Option下配置与其功能名称相对应的menu item 
+3.在NppExec下的Advanced Option下配置与其功能名称相对应的menu item<br>
+4.在Shortcut mapper下配置其快捷键<br>
 
-4.在Shortcut mapper下配置其快捷键
